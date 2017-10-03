@@ -1,0 +1,11 @@
+TABLE_CATALOG,TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,LOGICAL_NAME,ORDINAL_POSITION,COLUMN_DEFAULT,IS_NULLABLE,DATA_TYPE,KEY_POSITION,DESCRIPTION
+testserver,dbo,TestMaster,TestCol1,テストカラム1,1,,NO,varchar(3),1,テストカラム1
+testserver,dbo,TestMaster,TestCol2,テストカラム2,2,,NO,int,2,テストカラム2
+testserver,dbo,TestMaster,TestCol3,テストカラム3,3,,NO,int,3,テストカラム3
+testserver,dbo,TestMaster,TestCol4,テストカラム4,4,,YES,varchar(-1),,テストカラム4
+testserver,dbo,TestMaster,TestCol5,テストカラム5,5,,YES,tinyint,,テストカラム5
+testserver,dbo,TestMaster,TestCol6,テストカラム6,6,,YES,int,,テストカラム6
+testserver,dbo,TestTable,TestCol1,テストカラム1,1,,NO,varchar(3),1,テストカラム1
+testserver,dbo,TestTable,TestCol2,テストカラム2,2,,NO,int,2,テストカラム2
+testserver,dbo,TestTable,TestCol3,テストカラム3,3,,YES,varchar(-1),,テストカラム3
+testserver,dbo,TestTable,TestCol4,テストカラム4,4,,YES,varchar(-1),,テストカラム4
